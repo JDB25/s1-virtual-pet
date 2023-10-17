@@ -36,8 +36,8 @@ import javax.swing.border.Border;
 
 public class VirtualPetFace extends JFrame implements ActionListener{
 
-    private final int WIDTH = 400;
-    private final int HEIGHT = 400;
+    private final int WIDTH = 4000;
+    private final int HEIGHT = 4000;
     private ImagePanel imagePanel;
     private JTextPane textArea;
     private String base;
@@ -93,8 +93,8 @@ public class VirtualPetFace extends JFrame implements ActionListener{
        
         
         imagePanel = new ImagePanel();
-        int width = 200;
-        int height = 200;
+        int width = 1000;
+        int height = 1000;
         imagePanel.setPreferredSize(new Dimension(width, height));
         imagePanel.setMinimumSize(new Dimension(width, height));
         imagePanel.setBorder(BorderFactory.createLineBorder(Color.black, 2));
