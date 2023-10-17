@@ -44,10 +44,12 @@ public class Running{
                     p.message("You score!!! Winning the game and returning home a hero. The End", null);
                 }
                 else{
+                    p.sad();
                     p.message("Did you really think that would work? You shoot the puck right into the goalies lap, losing the game :( The End", null);
                 }         
             }
             else {
+                p.sad();
                 p.message("You attempt to snipe the goal, avoiding the goalie, but the goalie blocks your shot, losing you the game :( The End", null);
             }
         }
